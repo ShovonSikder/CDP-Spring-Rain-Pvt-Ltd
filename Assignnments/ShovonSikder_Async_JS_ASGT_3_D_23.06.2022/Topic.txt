@@ -1,0 +1,15 @@
+A kind of mini social media webpage. Design is up to you. You have the option to show creativity and design sense. For example: you can chose facebook, twitter as a reference.
+
+It can have additional features like -
+1. User can upload video, and then watch it in the page. There can be a list of all videos.
+2. User can make post and new post can be shown along with other posts as a list.
+3. User can capture live photo or video with audio, using the webcam, rather than upload from file system. That should also be visible as a list.
+4. The location of the user can be added with their posts or videos. Show the location of user beside their name.
+5. The datetime of post also should be added beside their name.
+6. Anyone can react on the posts.
+
+Instructions:
+1. You should implement as many features as you can; preferably all, if possible.
+2. Remember, 100% completed 2/3 features is better than incompleted 5/6 features.
+2. Only use HTML, CSS, JS. NOTHING ELSE.
+3. If you need storage, just use the file system for now. No database needed.

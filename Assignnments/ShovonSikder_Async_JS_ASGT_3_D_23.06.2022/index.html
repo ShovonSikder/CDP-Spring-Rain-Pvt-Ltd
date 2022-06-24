@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>The S.net</title>
+</head>
+
+<body>
+    <section class="reg-form post-card ">
+
+        <label for="name">
+            User Name:
+            <input type="text" id="userName" name="name" value="" placeholder="Enter your name" required>
+        </label><br><br>
+        <label for="profile">
+            Profile Image:
+            <input type="file" id="profileImg" name="profile" value="" required>
+        </label><br><br>
+        <label for="submit">
+            <input type="submit" id="submit" name="submit" value="Register">
+        </label><br><br>
+
+    </section>
+    <section class="root-container">
+        <section class="top-container">
+            <h2 class="logo">The S.net</h2>
+            <hr>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li id="home" style="color: blue;">Home</li>
+                        <li id="video">Video</li>
+                        <li id="live">Live</li>
+                        <li id="log-out">Log Out</li>
+                    </ul>
+                </nav>
+                <hr>
+            </div>
+            <div class="user-input-container">
+                <div>
+                    <img src="./testimg/profile.png" id="profile" alt="profile img">
+                </div>
+                <div>
+                    <input type="text" id="status" value="" placeholder="What's in your mind?">
+                    <input type="button" id="post" value="Post">
+                    <input type="button" id="upload" value="Upload">
+                </div>
+
+            </div>
+        </section>
+        <section id="content-container">
+
+            <div>
+                <br><br>
+                Theres always more!!!
+            </div>
+        </section>
+    </section>
+
+</body>
+<script src="./script/socialscript.js"></script>
+
+</html>
