@@ -121,7 +121,7 @@ video {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 40%;
 
 }
 
@@ -135,5 +135,8 @@ video {
 @media only screen and (max-width: 768px) {
     .root-container {
         width: 80%;
+    }
+    .reg-form{
+        width: 95%;
     }
 }
