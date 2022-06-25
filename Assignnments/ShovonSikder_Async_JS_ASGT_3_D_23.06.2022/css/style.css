@@ -70,8 +70,8 @@ body {
     background-color: aliceblue;
     margin-top: 15px;
     padding: 5px;
-    text-align: justify;
     box-shadow: 1px 1px 5px 0px;
+    overflow-wrap: break-word;
 
 
 }
